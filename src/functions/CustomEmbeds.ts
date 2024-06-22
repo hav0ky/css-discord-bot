@@ -9,7 +9,7 @@ export const TitleEmbed = () => {
     return new EmbedBuilder()
         .setColor(0x000000)
         .setTitle(process.env.TITLE!)
-        .setURL(process.env.DOMAIN!)
+        .setURL('https://' + process.env.DOMAIN!)
 }
 
 export const LastUpdated = () => {

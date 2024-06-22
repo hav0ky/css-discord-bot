@@ -23,9 +23,8 @@ client.on("ready", async () => {
     console.log('Ready event');
     const initial_servers = await GetAllServers()
 
-
     client.user?.setPresence({
-        activities: [{ name: 'proaim.cc', type: ActivityType.Watching }],
+        activities: [{ name: process.env.DOMAIN!, type: ActivityType.Watching }],
         status: 'dnd',
     });
 
