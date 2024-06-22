@@ -1,0 +1,29 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del /s /q build",
+    "build": "tsc --build",
+    "start": "npm run clean && npm run build && node build/index.js",
+    "startNoClean": "npm run build && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fabricio-191/valve-server-query": "^4.1.9",
+    "axios": "^1.7.2",
+    "big.js": "^6.2.1",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "embed-table": "^4.2.3",
+    "mysql2": "^3.10.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/big.js": "^6.2.2",
+    "@types/node-cron": "^3.0.11"
+  }
+}
