@@ -56,7 +56,7 @@ const CreateEmbed = (server: SafeServerInfo) => {
         (server.players as []).map((player: PlayerInfo) =>
             table.addRow([truncateString(player.playerName!), `${calculateKDRatio(Number(player.k), Number(player.d))}`, `${player.k}`, `${player.d}`])
         )
-        embed.setFields(table.toField())
+        embed.addFields(table.toField())
     }
 
     return embed
