@@ -6,7 +6,7 @@
 A versatile Discord bot designed to display real-time player information, including current map details and player statistics such as kills and deaths. Enhance your gaming community with instant updates and insights directly on your Discord server.
 
 ### Preview
-![luas](https://imgur.com/DjurNcf)
+![preview](https://i.imgur.com/DjurNcf.png)
 
 ### Support
 If you need any support, contact me on discord @hvky
